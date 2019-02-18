@@ -37,7 +37,7 @@ if (!$('header').hasClass('no-sticky')) {
     } else if ($(document).scrollTop() <= headerHeight) {
         $('header').removeClass('sticky');
         setTimeout(function () {
-            setPageTitleSpace();
+            // setPageTitleSpace();
         }, 500);
     }
     SetMegamenuPosition();

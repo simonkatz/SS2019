@@ -644,7 +644,7 @@
                           <span class="first-letter first-letter-round first-letter-block-round xs-padding-two-lr text-extra-dark-gray">I </span>
                           <input type="text" name="name" id="name" placeholder="your full name here" class="big-input" style="width: 35%; padding-bottom: 0px;"> 
                           <p class="select-style big-select" style="width: 30%; display: inline-flex; border: none;">
-                            <select name="" id="" class="bg-transparent no-margin-bottom" style="padding-bottom: 0px; border-bottom: 1px solid #ccc;">
+                            <select name="attend" id="attend" class="bg-transparent no-margin-bottom" style="padding-bottom: 0px; border-bottom: 1px solid #ccc;">
                                 <option value="attending">will be attending</option>
                                 <option value="not-attending">will not be attending</option>
                             </select>
@@ -654,15 +654,15 @@
                         <div>
                           My invitation mentioned I could bring 
                           <p class="select-style big-select" style="width: 30%; display: inline-flex; border: none;">
-                              <select name="" id="" class="bg-transparent no-margin-bottom" style=" border-bottom: 1px solid #ccc;">
+                              <select name="guestcount" id="guestcount" class="bg-transparent no-margin-bottom" style=" border-bottom: 1px solid #ccc;">
                                   <option value="1">my awesome self</option>
                                   <option value="2">a +1</option>
                               </select>
-                          </p> so I'll be <br/> coming with <input type="text" name="name" id="name" placeholder="guest's full name here" class="big-input" style="width: 35%;"> 
+                          </p> so I'll be <br/> coming with <input type="text" name="guestname" id="guestname" placeholder="guest's full name here" class="big-input" style="width: 35%;"> 
                         </div>
                         <div>For my entrée, I'll have the delicious 
                           <p class="select-style big-select" style="width: 25%; display: inline-flex; border: none;">
-                              <select name="" id="" class="bg-transparent no-margin-bottom" style=" border-bottom: 1px solid #ccc;">
+                              <select name="meal" id="meal" class="bg-transparent no-margin-bottom" style=" border-bottom: 1px solid #ccc;">
                                   <option value="">your option</option>
                                   <option value="chicken">Chicken</option>
                                   <option value="beef">Beef</option>
@@ -671,7 +671,7 @@
                           </p>
                           &
                           <p class="select-style big-select" style="width: 25%; display: inline-flex; border: none;">
-                              <select name="" id="" class="bg-transparent no-margin-bottom" style=" border-bottom: 1px solid #ccc;">
+                              <select name="guestmeal" id="guestmeal" class="bg-transparent no-margin-bottom" style=" border-bottom: 1px solid #ccc;">
                                   <option value="">guest's option</option>
                                   <option value="chicken">Chicken</option>
                                   <option value="beef">Beef</option>
@@ -680,7 +680,7 @@
                           </p>
                         </div>
                         <div>You'll find me on the dancefloor when you play 
-                          <input type="text" name="name" id="name" placeholder="song name" class="big-input" style="width: 35%;"> 
+                          <input type="text" name="songname" id="songname" placeholder="song name" class="big-input" style="width: 35%;"> 
                         </div>
                         <div class="col-md-12 text-center">
                             <button id="project-contact-us-button" type="submit" class="btn btn-transparent-dark-gray btn-large margin-20px-top">submit</button>
@@ -749,6 +749,9 @@
         <script type="text/javascript" src="./js/counter.js"></script>
         <!-- twitter Fetcher  -->
         <script type="text/javascript" src="./js/twitterFetcher_min.js"></script>
+        
+        <script src="./js/jqBootstrapValidation.js"></script>
+        <script type="text/javascript" src="./js/contact_me.js"></script>
         <!-- main -->
         <script type="text/javascript" src="./js/main.js"></script>
     
