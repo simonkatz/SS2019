@@ -2242,6 +2242,8 @@ nav.navbar.bootsnav .heder-menu-button .navbar-toggle {float: none; padding: 0; 
 /* menu center */
 .menu-center .header-right { flex: 1 2 auto;}
 .navbar-collapse {padding-left: 0; padding-right: 0;}
+.navbar-collapse.collapse { width: max-content;}
+
 
 /* menu center logo */
 .menu-logo-center .navbar-left > li {float: none; display: inline-block; vertical-align: middle;}
