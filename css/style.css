@@ -3841,3 +3841,6 @@ aside .latest-post li figure {width: 75px;}
 #rsvp, #rsvp input, #rsvp select {
   font-size: 17px !important;
 }
+.w-100 {
+    width: 100%;
+}
